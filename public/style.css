@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(43, 0, 255);
+    justify-content: center;
+    justify-items: center;
+  
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background:linear-gradient(to bottom,#08c1ff,#5053fd,#2f0289) ;
+}
+main{
+
+   border-radius: 0.9rem;
+    padding: 2rem;
+color: blue;
+background-color: beige;
+justify-content: center;
+justify-items: center;
+display: flex;
+align-content: space-between;
+min-height: 400px;
+width: 50%;
+flex-direction: column;
+/* position: absolute; */
+background:linear-gradient(to bottom,#0022ff,#020062,#7a70fb) ;
+overflow: hidden;
+box-shadow:5px 20px 50px #00ffff;
+}
+.sing_up{
+color: hwb(0 100% 0%);
+font-weight: bold;
+    transform: translateY(0);
+}
+.login{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: translateY(-100%);
+}
+button{
+    
+ 
+    /* transform: translateY(750%); */
+    height: 4vh;
+    width: 13vh;
+    font-size: 2vh;
+    font-weight: bold;
+        background-color: #0f8ed7;
+        display: inline;
+        border-radius: 0.5rem;
+        border: 1vh;
+        border-color: red ;
+        box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    button:hover{
+        background-color: white;
+    }
+    select{
+        height: 4vh;
+        width: 8vh;
+        font-size: 2vh;
+        font-weight: bold;
+            background-color: #ff9a0d;
+            display: inline;
+            border-radius: 0.5rem;
+            border: 1vh;
+            border-color: rgb(204, 255, 0) ;
+            box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+            cursor: pointer;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+    }
+form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+main.login{
+
+    transform: translateY(-1500%);
+}
+input{
+    /* background: white;
+    justify-content: center;*/
+    display: flex;
+    padding: 5px;
+    outline: none; 
+    border-radius: 5px;
+
+}
